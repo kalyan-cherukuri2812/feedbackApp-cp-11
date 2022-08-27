@@ -1,0 +1,86 @@
+.bg-container {
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  color: #0f172a;
+  font-family: roboto;
+}
+.bg-card {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  width: 75%;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-2 {
+  background-color: white;
+  width: 75%;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submit-img-card {
+  text-align: center;
+}
+.submit-h {
+  font-family: roboto;
+  font-size: 20px;
+}
+.para {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.para-2 {
+  text-align: center;
+}
+.emoji-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+.emoji {
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+.images {
+  width: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card {
+    width: 60%;
+    border-radius: 15px;
+  }
+  .card-2 {
+    width: 60%;
+    border-radius: 15px;
+  }
+}
